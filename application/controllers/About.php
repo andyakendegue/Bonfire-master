@@ -46,6 +46,8 @@ class About extends MX_Controller {
 	{
 
 		$this->load->library('users/auth');
+		$this->load->helper('url');
+
 		$this->set_current_user();
 
 		Template::render();

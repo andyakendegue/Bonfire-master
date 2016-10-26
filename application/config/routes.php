@@ -56,11 +56,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'home';
 $route['en'] = 'home_en';
 $route['404_override'] = 'error_404';
-$route['services'] = 'Services';
-$route['blog'] = 'Blog';
-$route['job'] = 'Magazine';
-$route['about'] = 'About';
-$route['contact'] = 'Contact';
+$route['services'] = 'services';
+$route['blog'] = 'blog';
+$route['job'] = 'magazine';
+$route['about'] = 'about';
+$route['contact'] = 'contact';
 
 // Authentication
 Route::any(LOGIN_URL, 'users/login', array('as' => 'login'));

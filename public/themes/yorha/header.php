@@ -100,15 +100,15 @@ Assets::add_js($inline, 'inline');
         <!--<a href="<?php echo site_url('logout'); ?>"><?php e(lang('bf_action_logout')); ?></a>-->
 
             <?php if ($language == 'fr') : ?>
-                <a href="<?php echo site_url('logout'); ?>">Deconnexion</a>
+                <a class="link-bar-top" href="<?php echo site_url('logout'); ?>">Deconnexion</a>
             <?php else : ?>
-                <a href="<?php echo site_url('logout'); ?>">Log out</a>
+                <a class="link-bar-top" href="<?php echo site_url('logout'); ?>">Log out</a>
             <?php endif; ?>
 
             <?php if ($language == 'fr') : ?>
-                <a href="<?php echo site_url('users/profile'); ?>">Mon profil</a>
+                <a class="link-bar-top" href="<?php echo site_url('users/profile'); ?>">Mon profil</a>
                 <?php else : ?>
-                <a href="<?php echo site_url('users/profile'); ?>">My profile</a>
+                <a class="link-bar-top" href="<?php echo site_url('users/profile'); ?>">My profile</a>
             <?php endif; ?>
             <!--<a id="modal-profile" href="#modal-container-profile" role="button" data-toggle="modal"><?php e(lang('bf_user_settings')); ?></a>
             <div class="modal fade" id="modal-container-profile" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

@@ -28,14 +28,7 @@
                         <p>“Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”</p>
                         <span>&mdash; Camille Epembia - Fondateur</span>
                     </blockquote>
-                    <div class="row">
-                        <div class="col-md-6 animate-box">
-                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                        </div>
-                        <div class="col-md-6 animate-box">
-                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <div class="col-md-3">

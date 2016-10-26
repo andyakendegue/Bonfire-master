@@ -27,11 +27,11 @@
             <form action="#">
                 <div class="form-group row">
                     <div class="col-md-6 field">
-                        <label for="firstname">First Name</label>
+                        <label for="firstname">Nom</label>
                         <input type="text" name="FName" id="firstname" class="form-control">
                     </div>
                     <div class="col-md-6 field">
-                        <label for="lastname">Last Name</label>
+                        <label for="lastname">Prénom</label>
                         <input type="text" name="FName" id="lastname" class="form-control">
                     </div>
                 </div>

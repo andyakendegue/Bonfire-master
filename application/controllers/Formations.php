@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Contact extends MX_Controller {
+class Formations extends MX_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -90,7 +90,7 @@ class Contact extends MX_Controller {
                 'services'    => '',
                 'job'    => '',
                 'about'    => '',
-                'contact'    => 'active'
+                'contact'    => ''
             );
 
             Template::set('link_class', $link_class);

@@ -1,6 +1,6 @@
 
 <div class="owl-carousel owl-carousel1 owl-carousel-fullwidth fh5co-light-arrow animate-box" data-animate-effect="fadeIn">
-    <div class="item"><a href="<?php echo Template::theme_url('images/yorha_team_home-1.jpg'); ?>" class="image-popup"><img src="<?php echo Template::theme_url('images/yorha_team_home-1.jpg'); ?>" alt="image"></a></div>
+    <!--<div class="item"><a href="<?php echo Template::theme_url('images/yorha_team_home-1.jpg'); ?>" class="image-popup"><img src="<?php echo Template::theme_url('images/yorha_team_home-1.jpg'); ?>" alt="image"></a></div>-->
     <div class="item"><a href="<?php echo Template::theme_url('images/yorha_team_home-2.jpg'); ?>" class="image-popup"><img src="<?php echo Template::theme_url('images/yorha_team_home-2.jpg'); ?>" alt="image"></a></div>
     <div class="item"><a href="<?php echo Template::theme_url('images/yorha_team_home-3.jpg') ; ?>" class="image-popup"><img src="<?php echo Template::theme_url('images/yorha_team_home-3.jpg'); ?>" alt="image"></a></div>
     <div class="item"><a href="<?php echo Template::theme_url('images/yorha_team_home-4'); ?>" class="image-popup"><img src="<?php echo Template::theme_url('images/yorha_team_home-4.jpg'); ?>" alt="image"></a></div>
@@ -22,7 +22,7 @@
 
 <div id="fh5co-intro-section">
     <div class="fh5co-intro-cover text-center animate-box" data-animate-effect="fadeIn" data-stellar-background-ratio="0.5" style="background-image: url(<?php echo Template::theme_url('images/intro.jpg'); ?>);">
-        <a href="#" class="btn">Bourse d'étude BOUROBOU CAROLINE. Inscrivez-vous ici !</a>
+        <a href="<?=base_url('bourse')?>" class="btn">Bourse d'étude BOUROBOU CAROLINE. Inscrivez-vous ici !</a>
     </div>
 </div>
 <!-- END fh5co-intro-section -->
